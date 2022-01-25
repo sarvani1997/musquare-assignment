@@ -1,0 +1,10 @@
+get('https://api.github.com/users/sarvani1997')
+
+
+get('https://api.github.com/repos/rust-lang/rust', headers={
+  'Authorization': 'Bearer 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'
+ })
+
+get('https://api.github.com/repos/rust-lang/rust/pulls/93269', headers={
+  'Authorization': 'Bearer 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'
+ })
